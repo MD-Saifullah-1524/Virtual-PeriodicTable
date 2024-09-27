@@ -1,0 +1,31 @@
+#f_block{
+    display: block;
+    padding: auto;
+    height: 206px;
+    width: 1588px;
+    margin-top: 800px;
+    margin-left: 128px;
+    margin-bottom: 20px;
+    position: absolute;
+}
+#f_ra #e{
+    display: inline-block;
+}
+#f_rb #e{
+    display: inline-block;
+}
+#f_ra{
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom:unset;
+}
+#f_rb{
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+}
+#f_block #e{
+    border-top: unset;
+    border-right: 2px solid white;
+    border-bottom: unset;
+}

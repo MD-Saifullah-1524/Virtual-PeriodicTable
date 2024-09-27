@@ -1,0 +1,15 @@
+.Alkali_Metals{
+    background: #653d12;
+}
+.Alkaline_Earth_Metals{
+    background: #7f6124;
+}
+.Reactive_nonmetal{
+    background: green!important;
+}
+.gas{
+    color: red!important;
+}
+.solid{
+    color: #b5b5b5!important;
+}

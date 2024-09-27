@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en-in">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/main.js"></script>
+    <title>Virtual Periodic Table</title>
+</head>
+<body>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDc9LeaaY3fyMvAi8fT6_8lvb-KsOslqb0",
+          authDomain: "virtual-periodictable.firebaseapp.com",
+          projectId: "virtual-periodictable",
+          storageBucket: "virtual-periodictable.appspot.com",
+          messagingSenderId: "217804529491",
+          appId: "1:217804529491:web:f9f9fcb284a55e43038ba6",
+          measurementId: "G-BETLWKH4HJ"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+    <div id="main_container">
+    <div id="s_block">
+        <div id="s_ca" class="Alkali_Metals">
+            <div id="e" class="gas Reactive_nonmetal">
+                <div class="element" id="a_no">1</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1.0079</div>
+            </div></div><div id="e" class="solid">
+                <div class="element" id="a_no">3</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">Li</div>
+                <div class="element" id="bottom">
+                    <div id="name">Lithium</div>
+                    <div id="mass">6.941</div>
+            </div></div><div id="e" class="solid">
+                <div class="element" id="a_no">11</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">Na</div>
+                <div class="element" id="bottom">
+                    <div id="name">Sodium</div>
+                    <div id="mass">22.989768</div>
+            </div></div><div id="e" class="solid">
+                <div class="element" id="a_no">19</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">K</div>
+                <div class="element" id="bottom">
+                    <div id="name">Potassium</div>
+                    <div id="mass">39.0983</div>
+            </div></div><div id="e" class="solid">
+                <div class="element" id="a_no">37</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">Rb</div>
+                <div class="element" id="bottom">
+                    <div id="name">Rubidium</div>
+                    <div id="mass">85.4678</div>
+            </div>
+
+</div><div id="e" class="solid">
+                <div class="element" id="a_no">55</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">Cs</div>
+                <div class="element" id="bottom">
+                    <div id="name">Cesium</div>
+                    <div id="mass">132.90543</div>
+            </div>
+    </div><div id="e" class="solid">
+                <div class="element" id="a_no">87</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">Fr</div>
+                <div class="element" id="bottom">
+                    <div id="name">Francium</div>
+                    <div id="mass">223.0197</div>
+            </div>
+        </div>
+    </div>
+    <div id="s_cb" class="Alkaline_Earth_Metals">
+        <div id="e" class="solid">
+            <div class="element" id="a_no">4</div>
+            <div class="element" id="valency">2</div>
+            <div class="element" id="center">Be</div>
+            <div class="element" id="bottom">
+                <div id="name">Berylium</div>
+                <div id="mass">9.01218</div>
+        </div></div>
+        <div id="e" class="solid">
+            <div class="element" id="a_no">12</div>
+            <div class="element" id="valency">2</div>
+            <div class="element" id="center">Mg</div>
+            <div class="element" id="bottom">
+                <div id="name">Magnesium</div>
+                <div id="mass">24.305</div>
+        </div></div>
+        <div id="e" class="solid">
+            <div class="element" id="a_no">20</div>
+            <div class="element" id="valency">2</div>
+            <div class="element" id="center">Ca</div>
+            <div class="element" id="bottom">
+                <div id="name">Calcium</div>
+                <div id="mass">40.078</div>
+        </div></div>
+        <div id="e" class="solid">
+            <div class="element" id="a_no">38</div>
+            <div class="element" id="valency">2</div>
+            <div class="element" id="center">Sr</div>
+            <div class="element" id="bottom">
+                <div id="name">Strontium</div>
+                <div id="mass">87.62</div>
+        </div></div>
+        <div id="e" class="solid">
+            <div class="element" id="a_no">56</div>
+            <div class="element" id="valency">2</div>
+            <div class="element" id="center">Ba</div>
+            <div class="element" id="bottom">
+                <div id="name">Barium</div>
+                <div id="mass">137.327</div>
+        </div></div>
+        <div id="e" class="solid">
+            <div class="element" id="a_no">88</div>
+            <div class="element" id="valency">2</div>
+            <div class="element" id="center">Ra</div>
+            <div class="element" id="bottom">
+                <div id="name">Radium</div>
+                <div id="mass">226.0254</div>
+        </div></div>
+</div>
+</div>
+<div id="d_block">
+    <div id="d_ca">
+        <div id="e">
+            <div class="element" id="a_no">15</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">L</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">A</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+    </div>
+    <div id="d_cb">
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+    </div>
+    <div id="d_cc">
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+    </div>
+    <div id="d_cd">
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+    </div>
+    <div id="d_ce">
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+    </div>
+    <div id="d_cf">
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+    </div>
+    <div id="d_cg">
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+    </div>
+    <div id="d_ch">
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+    </div>
+    <div id="d_ci">
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+    </div>
+    <div id="d_cj">
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="d_cg"></div>
+    </div>
+</div>
+<div id="p_block">
+    <div id="p_ca">
+        <div class="yes_left" id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div class="yes_left" id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+    </div>
+    <div id="p_cb">
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+    </div>
+    <div id="p_cc">
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+    </div>
+    <div id="p_cd">
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+    </div>
+    <div id="p_ce">
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+    </div>
+    <div id="p_cf">
+        <div class="yes_left" id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+        <div id="e">
+            <div class="element" id="a_no">14</div>
+            <div class="element" id="valency">1</div>
+            <div class="element" id="center">H</div>
+            <div class="element" id="bottom">
+                <div id="name">Hydrogen</div>
+                <div id="mass">1</div>
+        </div></div>
+    </div></div>
+    <div id="f_block">
+        <div id="f_ra">
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e" class="no_right">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+        </div>
+        <div id="f_rb">
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+            <div id="e"class="no_right">
+                <div class="element" id="a_no">8</div>
+                <div class="element" id="valency">1</div>
+                <div class="element" id="center">H</div>
+                <div class="element" id="bottom">
+                    <div id="name">Hydrogen</div>
+                    <div id="mass">1</div>
+            </div></div>
+        </div>
+    </div></div>
+</div>
+</div></body>
+</html>

@@ -1,0 +1,46 @@
+#e{
+    color:black;
+    display: block;
+    padding: auto;
+    width: 100px;
+    height: 100px;
+    border-bottom: 2px solid white;
+    position: relative;
+}
+.element{
+    display: inline-block;
+    padding: auto;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 2px;
+}
+#bottom{
+    width: 100px;
+    height: 20px;
+    font-size: 15px;
+    font-family:Roboto;
+}
+#center{
+    width: 100px;
+    height: 40px;
+    font-family: Algerian;
+    font-size: 40px;
+    font-weight: bold;
+}
+#a_no{
+    width: 45px;
+    text-align: left;
+    font-size: 15px;
+    margin-left:2px;
+    font-family: monospace;
+}
+#valency{
+    width: 45px;
+    text-align: right;
+    font-size: 15px;
+    font-family: monospace;
+}
+#main_container{
+    margin-left: 50px;
+    font-family: French_Script_MT;
+}

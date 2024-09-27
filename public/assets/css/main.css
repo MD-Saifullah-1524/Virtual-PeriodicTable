@@ -1,0 +1,14 @@
+@import url(table.css);
+@import url(s_block.css);
+@import url(d_block.css);
+@import url(p_block.css);
+@import url(f_block.css);
+@import url(color_coding.css);
+@font-face {
+    font-family: French_Script_MT;
+    src: url(FRSCRIPT.TTF);
+}
+body{
+    background: navajowhite;
+    zoom: 75%;
+}
