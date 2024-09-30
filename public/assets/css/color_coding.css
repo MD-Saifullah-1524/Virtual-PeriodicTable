@@ -4,6 +4,9 @@
 .Alkaline_Earth_Metals{
     background: var(--color_Alkaline_Earth_Metals);
 }
+.Transition_Metals{
+    background-color:var(--color_Transition_Metals)
+}
 .Reactive_nonmetal{
     background: var(--color_Reactive_nonmetal);
 }
@@ -12,4 +15,7 @@
 }
 .solid{
     color: var(--color_Solid);
+}
+.series{
+    background:var(--no_bg);
 }
