@@ -3,6 +3,7 @@
 @import url(d_block.css);
 @import url(p_block.css);
 @import url(f_block.css);
+@import url(custom_color_definition.css);
 @import url(color_coding.css);
 @font-face {
     font-family: French_Script_MT;

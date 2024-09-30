@@ -1,15 +1,15 @@
 .Alkali_Metals{
-    background: #653d12;
+    background: var(--color_Alkali_Metals);
 }
 .Alkaline_Earth_Metals{
-    background: #7f6124;
+    background: var(--color_Alkaline_Earth_Metals);
 }
 .Reactive_nonmetal{
-    background: green!important;
+    background: var(--color_Reactive_nonmetal);
 }
 .gas{
-    color: red!important;
+    color: var(--color_gas);
 }
 .solid{
-    color: #b5b5b5!important;
+    color: var(--color_Solid);
 }
