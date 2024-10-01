@@ -19,3 +19,6 @@
 .series{
     background:var(--no_bg);
 }
+.unknown{
+    color: var(--color_unknown);
+}
