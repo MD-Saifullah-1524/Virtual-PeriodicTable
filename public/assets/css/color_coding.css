@@ -10,6 +10,9 @@
 .Reactive_nonmetal{
     background: var(--color_Reactive_nonmetal);
 }
+.Synthetic_Elements{
+    background: var(--color_Synthetic_elements);
+}
 .gas{
     color: var(--color_gas);
 }
