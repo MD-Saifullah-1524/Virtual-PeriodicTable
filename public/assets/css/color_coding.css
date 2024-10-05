@@ -13,15 +13,28 @@
 .Synthetic_Elements{
     background: var(--color_Synthetic_elements);
 }
+.Post-Transition_Metals{
+    background: var(--color_Post-Transition_Metals);
+}
+.Metalloids{
+    background: var(--color_Metalloids);
+}
 .gas{
     color: var(--color_gas);
 }
 .solid{
     color: var(--color_Solid);
 }
+.liquid{
+    color: var(--color_liquid);
+}
 .series{
     background:var(--no_bg);
 }
 .unknown{
     color: var(--color_unknown);
+}
+.Noble_Gas{
+    background: var(--color_Noble_Gas);
+    color: var(--color_gas);
 }

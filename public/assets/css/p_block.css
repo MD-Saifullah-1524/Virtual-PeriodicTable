@@ -11,6 +11,7 @@
     position: absolute;
     border-top: 2px solid white;
     border-right: 2px solid white;
+    border-left: 2px solid white;
 }
 .yes_left{
     border-left: 2px solid white;
@@ -40,12 +41,12 @@
     margin-top: 102px;
     position: absolute;
     border-top: 2px solid white;
-    border-right: 2px solid white;
     margin-left: 410px;
 }
 #p_cf{
     position: absolute;
     border-top: 2px solid white;
     border-right: 2px solid white;
-    margin-left: 512px;
+    border-left: 2px solid white;
+    margin-left: 510px;
 }
