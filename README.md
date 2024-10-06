@@ -11,3 +11,5 @@ This project has been on my mind for years. While there are many websites offeri
 - [ ] Make it responsive
 - [ ] Add an extended info page
 - [ ] Add a toggle to switch between valencies and atomic mass
+## ScreenShot
+![image](https://github.com/user-attachments/assets/e03f76ac-0745-4547-a638-6fd64e26067a)
