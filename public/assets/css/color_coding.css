@@ -38,3 +38,9 @@
     background: var(--color_Noble_Gas);
     color: var(--color_gas);
 }
+.Lanthanides{
+    background:var(--color_Lanthanides);
+}
+.Actinides{
+    background: var(--color_Actinides);
+}
