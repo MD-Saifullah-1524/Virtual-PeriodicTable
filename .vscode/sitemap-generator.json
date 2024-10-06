@@ -2,7 +2,7 @@
   "public/sitemap.xml": {
     "Protocol": "https",
     "DomainName": "virtual-periodictable.web.app",
-    "Root": "./",
+    "Root": "./public/",
     "IncludeExt": [
       ".html",
       ".php"
@@ -12,7 +12,7 @@
       "priority",
       "lastmod"
     ],
-    "DefaultChangeFrequency": "monthly",
+    "DefaultChangeFrequency": "daily",
     "TabCharacters": "\t",
     "bIncludeWWW": true,
     "bRemoveFileExtentions": false,
