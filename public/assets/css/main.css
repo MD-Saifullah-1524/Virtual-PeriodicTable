@@ -1,3 +1,5 @@
+@import url(https://lios-open.web.app/LiOS_Open.css);
+@import url(https://lios-colors.web.app/dist/custom_color_definitions.css);
 @import url(table.css);
 @import url(s_block.css);
 @import url(d_block.css);
@@ -5,11 +7,17 @@
 @import url(f_block.css);
 @import url(custom_color_definition.css);
 @import url(color_coding.css);
+@import url(legend.css);
+@import url(on_hover.css);
 @font-face {
     font-family: French_Script_MT;
     src: url(FRSCRIPT.TTF);
 }
-body{
-    background: navajowhite;
-    zoom: 75%;
+:root{
+    height: 100%;
+    background: #8c52ff;
+    transform: scale(70%);
+}
+#main_container{
+    margin-left: 0px;
 }

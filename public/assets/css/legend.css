@@ -1,0 +1,35 @@
+#legend{
+    display: block;
+    padding: auto;
+    position: absolute;
+    width: 1000px;
+    height: 400px;
+    margin-left: 215px;
+    margin-top: -102px;
+    border-radius: 5px;
+    background: var(--f2f1e6);
+}
+#legend #e{
+    border: 2px solid white;
+    background: #372354;
+    margin-left: 210px;
+}
+#Properties_Box{
+    font-size: 32px;
+    display: block;
+    background: var(--f2f1e6);
+    width: 200px;
+    padding: auto;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+#Properties_Box div{
+    font-size: 28px;
+    width: 180px;
+    margin: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: var(--color_Solid);
+    border-radius: 5px;
+}
