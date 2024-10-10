@@ -6,7 +6,7 @@ This project has been on my mind for years. While there are many websites offeri
 
 ## To-Do ✅
 
-- [ ] Add legend/key
+- [x] Add legend/key
 - [ ] Simplify and declutter the code
 - [ ] Make it responsive
 - [ ] Add an extended info page
