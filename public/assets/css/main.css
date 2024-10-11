@@ -16,8 +16,8 @@
 :root{
     height: 100%;
     background: #8c52ff;
-    transform: scale(70%);
+    transform: scale(65%);
 }
 #main_container{
-    margin-left: 0px;
+    margin-left: -200px;
 }
