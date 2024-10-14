@@ -7,7 +7,11 @@
       ".html",
       ".php"
     ],
-    "Exclude": [],
+    "Exclude": [
+      "404.html",
+      "google85bf64fc444d13bb.html",
+      "./public/very_short_descriptions/**"
+    ],
     "TagsToInclude": [
       "priority",
       "lastmod"

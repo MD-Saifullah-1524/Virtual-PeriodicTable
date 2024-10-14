@@ -33,3 +33,12 @@
     color: var(--color_Solid);
     border-radius: 5px;
 }
+#very_short_description{
+    width: 560px;
+    height: 380px;
+    display: block;
+    margin-top: -385px;
+    margin-left: 425px;
+    background: var(--ffffff);
+    border-radius: 5px;
+}

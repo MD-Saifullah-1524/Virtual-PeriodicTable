@@ -1,0 +1,42 @@
+@import url(https://lios-open.web.app/LiOS_Open.css);
+@import url(https://virtual-periodictable.web.app/assets/css/custom_color_definition.css);
+@import url(color_coding.css);
+.container{
+    display: flex;
+}
+.main_container{
+    display: flexbox;
+    width: 200px;
+    border-right: 2px white solid;
+}
+.element_symbol{
+    font-family: Algerian;
+    font-size: 62px;
+    text-align: center;
+}
+.element_name{
+    font-family: roboto;
+    font-size: 22px;
+    text-align: center;
+}
+.element_mass{
+    font-size: 18px;
+}
+.element_valencies{
+    font-size: 18px;
+}
+.element_no{
+    font-size: 18px;
+}
+.definition_container{
+    display: flexbox;
+    width: 350px;
+    text-align: center;
+    font-size: 24px;
+}
+.element_classification{
+    font-size: 18px;
+}
+* b{
+   color: black; 
+}
