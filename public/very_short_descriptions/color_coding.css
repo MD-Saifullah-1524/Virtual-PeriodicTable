@@ -38,9 +38,9 @@
     background: var(--color_Noble_Gas);
     color: var(--color_gas);
 }
-.Lanthanides{
-    background:var(--color_Lanthanides);
+.lanthanoids{
+    background:var(--color_lanthanoids);
 }
-.Actinides{
-    background: var(--color_Actinides);
+.actinoids{
+    background: var(--color_actinoids);
 }

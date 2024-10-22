@@ -3,7 +3,7 @@ document.addEventListener('mouseover', function(event) {
     
     if (target && target.dataset.file) {  // Check if the target has a data-file attribute
         const iframe = document.getElementById('very_short_description');  // Find the iframe
-        iframe.src = 'Very_short_descriptions/' + target.dataset.file;  // Load the respective file
+        iframe.src = 'very_short_descriptions/' + target.dataset.file;  // Load the respective file
     }
 });
 
