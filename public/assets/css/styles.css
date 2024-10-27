@@ -1,4 +1,4 @@
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1450px) {
     .main_container{
         display: block;
         width: 95%;
@@ -22,7 +22,29 @@
     }
     
 }
-@media screen and (max-width: 1399px) {
+@media screen and (min-width:944px)and (max-width:1449px) {
+    .main_container{
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    :root{
+        background: linear-gradient(45deg,var(--secondary),var(--quaternary));
+        width: 100%;
+        background-attachment: fixed;
+    }
+    .not_supported{
+        display: none;
+        width: 95%;
+        margin: 2.5% 2.5% 2.5% 2.5%;
+        height: 100%;
+        padding: auto;
+        background: var(--ffffff);
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width: 943px) {
     .not_supported {
         display: block; /* Show when screen is less than or equal to 1468px */
         background: var(--ffffff);
