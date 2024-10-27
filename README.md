@@ -7,7 +7,7 @@ This project has been on my mind for years. While there are many websites offeri
 ## To-Do ✅
 
 - [x] Add legend/key
-- [ ] Simplify and declutter the code
+- [x] Simplify and declutter the code
 - [ ] Make it responsive
 - [ ] Add an extended info page
 - [ ] Add a toggle to switch between valencies and atomic mass
