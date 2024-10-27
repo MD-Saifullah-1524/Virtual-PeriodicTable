@@ -93,3 +93,23 @@
     justify-content: space-between;
     background: transparent;
 }
+/* For Smaller Screens */
+@media screen and (min-width: 360px) and (max-width:943px){   
+    .element_container{
+        max-width: 70px;
+        height: 70px;
+        border-radius: unset;
+        border: 2px var(--white) solid;
+        overflow: scroll;
+    }
+    .element_container .symbol{
+        font-size:20px;
+    }
+    .element_container .name{
+        font-size: 10px;
+        overflow-wrap: unset;
+    }
+    .element_container .mass{
+        font-size: 10px;
+    }
+}
