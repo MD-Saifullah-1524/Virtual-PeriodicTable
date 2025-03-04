@@ -1,8 +1,8 @@
-:root{
-    --black:#000011;
-    --white:#e3ddd3;
-    --primary:#ffaabb;
-    --secondary:#48295b;
-    --tertiary:#88ffcc;
-    --quaternary:#05a3ad;
+:root {
+    --black: #111122;  /* Softer black */
+    --white: #f0e8dc;  /* Warm white */
+    --primary: #ff7799;  /* Deep pink */
+    --secondary: #5c3d6a;  /* Softer purple */
+    --tertiary: #66e0b3;  /* Muted mint green */
+    --quaternary: #0097a7;  /* Muted teal */
 }
