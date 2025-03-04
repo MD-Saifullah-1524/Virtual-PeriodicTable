@@ -11,5 +11,6 @@ This project has been on my mind for years. While there are many websites offeri
 - [ ] Add an extended info page
 - [ ] Add a toggle to switch between valencies and atomic mass
 ## ScreenShot
-![image](https://github.com/user-attachments/assets/b2741990-7840-4324-b69a-fadf111a1081)
 
+
+![Screenshot_4-3-2025_201559_127 0 0 1](https://github.com/user-attachments/assets/c4187282-228d-4ed6-b98f-32e889fe6668)
