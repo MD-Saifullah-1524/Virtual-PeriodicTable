@@ -1,13 +1,13 @@
 .main_container{
     display: block;
-    width: 100%;
+    width: max-content;
     height: 100%;
     border-radius: 5px;
     background: var(--deedeb);
 }
 :root{
     animation: root-background 50s linear infinite;
-    width: 100%;
+    width: max-content;
     background-attachment: fixed;
     transition: all 2s;
 }
