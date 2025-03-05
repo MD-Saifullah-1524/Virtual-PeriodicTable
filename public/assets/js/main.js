@@ -1,17 +1,16 @@
-document.addEventListener('mouseover', function(event) {
-    const target = event.target.closest('#e');  // Find the closest element with id 'e'
-    
-    if (target && target.dataset.file) {  // Check if the target has a data-file attribute
-        const iframe = document.getElementById('very_short_description');  // Find the iframe
-        iframe.src = 'very_short_descriptions/' + target.dataset.file;  // Load the respective file
-    }
-});
+document.addEventListener('click', function(event) {
+    const target = event.target.closest('.element_container');
+    const iframeContainer = document.getElementById('iframe_container');
+    const iframe = document.getElementById('very_short_description');
 
-document.addEventListener('mouseout', function(event) {
-    const target = event.target.closest('#e');  // Check if the target is an element
-    
-    if (target && target.dataset.file) {
-        const iframe = document.getElementById('very_short_description');  // Find the iframe
-        iframe.src = '';  // Optionally clear the iframe content
+    if (iframe && iframeContainer) {
+        if (target && target.dataset.file) {
+            iframe.src = 'very_short_descriptions/' + target.dataset.file;
+            iframeContainer.style.display = 'block';  // Show the container
+            iframe.style.display = 'block';  // Show the iframe
+        } else {
+            iframeContainer.style.display = 'none';  // Hide the container
+            iframe.style.display = 'none';  // Hide the iframe
+        }
     }
 });
