@@ -1,8 +1,9 @@
 @import url(https://lios-open.web.app/LiOS_Open.css);
 @import url(https://lios-colors.web.app/dist/custom_color_definitions.css);
-@import url(color_pallet.css);
+@import url(color_palette.css);
 @import url(styles.css);
 @import url(legend.css);
 @import url(color_definitions.css);
 @import url(table.css);
 @import url(element_configuration.css);
+@import url(animations.css);

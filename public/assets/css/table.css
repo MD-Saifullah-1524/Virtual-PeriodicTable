@@ -130,4 +130,6 @@
     border: none;
     border-radius: 5px;
     position: sticky;
+    animation: 10s linear;
+    animation-iteration-count: 1;
 }

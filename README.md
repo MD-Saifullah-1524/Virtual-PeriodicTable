@@ -9,7 +9,6 @@ This project has been on my mind for years. While there are many websites offeri
 - [x] Add legend/key
 - [x] Simplify and declutter the code
 - [ ] Add an extended info page
-- [ ] Add a toggle to switch between valencies and atomic mass
 ## ScreenShot
 
 

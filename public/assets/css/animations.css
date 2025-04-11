@@ -1,0 +1,319 @@
+/* Root Background */
+@keyframes root-background {
+    0% {
+        background: linear-gradient(45deg, var(--secondary) 25%, var(--primary));
+    }
+    1%{
+        background: linear-gradient(45deg, var(--secondary) 26%, var(--primary));
+    
+    }
+    2%{
+        background: linear-gradient(45deg, var(--secondary) 27%, var(--primary));
+    }
+    3%{
+        background: linear-gradient(45deg, var(--secondary) 28%, var(--primary));
+    }
+    4%{
+        background: linear-gradient(45deg, var(--secondary) 29%, var(--primary));
+    }
+    5%{
+        background: linear-gradient(45deg, var(--secondary) 30%, var(--primary));
+    }
+    6%{
+        background: linear-gradient(45deg, var(--secondary) 31%, var(--primary));
+    }
+    7%{
+        background: linear-gradient(45deg, var(--secondary) 32%, var(--primary));
+    }
+    8%{
+        background: linear-gradient(45deg, var(--secondary) 33%, var(--primary));
+    }
+    9%{
+        background: linear-gradient(45deg, var(--secondary) 34%, var(--primary));
+    }
+    10%{
+        background: linear-gradient(45deg, var(--secondary) 35%, var(--primary));
+    }
+    11%{
+        background: linear-gradient(45deg, var(--secondary) 36%, var(--primary));
+    }
+    12%{
+        background: linear-gradient(45deg, var(--secondary) 37%, var(--primary));
+    }
+    13%{
+        background: linear-gradient(45deg, var(--secondary) 38%, var(--primary));
+    }
+    14%{
+        background: linear-gradient(45deg, var(--secondary) 39%, var(--primary));
+    }
+    15%{
+        background: linear-gradient(45deg, var(--secondary) 40%, var(--primary));
+    }
+    16%{
+        background: linear-gradient(45deg, var(--secondary) 41%, var(--primary));
+    }
+    17%{
+        background: linear-gradient(45deg, var(--secondary) 42%, var(--primary));
+    }
+    18%{
+        background: linear-gradient(45deg, var(--secondary) 43%, var(--primary));
+    }
+    19%{
+        background: linear-gradient(45deg, var(--secondary) 44%, var(--primary));
+    }
+    20%{
+        background: linear-gradient(45deg, var(--secondary) 45%, var(--primary));
+    }
+    21%{
+        background: linear-gradient(45deg, var(--secondary) 46%, var(--primary));
+    }
+    22%{
+        background: linear-gradient(45deg, var(--secondary) 47%, var(--primary));
+    }
+    23%{
+        background: linear-gradient(45deg, var(--secondary) 48%, var(--primary));
+    }
+    24%{
+        background: linear-gradient(45deg, var(--secondary) 49%, var(--primary));
+    }
+    25%{
+        background: linear-gradient(45deg, var(--secondary) 50%, var(--primary));
+    }
+    26%{
+        background: linear-gradient(45deg, var(--secondary) 51%, var(--primary));
+    }
+    27%{
+        background: linear-gradient(45deg, var(--secondary) 52%, var(--primary));
+    }
+    28%{
+        background: linear-gradient(45deg, var(--secondary) 53%, var(--primary));
+    }
+    29%{
+        background: linear-gradient(45deg, var(--secondary) 54%, var(--primary));
+    }
+    30%{
+        background: linear-gradient(45deg, var(--secondary) 55%, var(--primary));
+    }
+    31%{
+        background: linear-gradient(45deg, var(--secondary) 56%, var(--primary));
+    }
+    32%{
+        background: linear-gradient(45deg, var(--secondary) 57%, var(--primary));
+    }
+    33%{
+        background: linear-gradient(45deg, var(--secondary) 58%, var(--primary));
+    }
+    34%{
+        background: linear-gradient(45deg, var(--secondary) 59%, var(--primary));
+    }
+    35%{
+        background: linear-gradient(45deg, var(--secondary) 60%, var(--primary));
+    }
+    36%{
+        background: linear-gradient(45deg, var(--secondary) 61%, var(--primary));
+    }
+    37%{
+        background: linear-gradient(45deg, var(--secondary) 62%, var(--primary));
+    }
+    38%{
+        background: linear-gradient(45deg, var(--secondary) 63%, var(--primary));
+    }
+    39%{
+        background: linear-gradient(45deg, var(--secondary) 64%, var(--primary));
+    }
+    40%{
+        background: linear-gradient(45deg, var(--secondary) 65%, var(--primary));
+    }
+    41%{
+        background: linear-gradient(45deg, var(--secondary) 66%, var(--primary));
+    }
+    42%{
+        background: linear-gradient(45deg, var(--secondary) 67%, var(--primary));
+    }
+    43%{
+        background: linear-gradient(45deg, var(--secondary) 68%, var(--primary));
+    }
+    44%{
+        background: linear-gradient(45deg, var(--secondary) 69%, var(--primary));
+    }
+    45%{
+        background: linear-gradient(45deg, var(--secondary) 70%, var(--primary));
+    }
+    46%{
+        background: linear-gradient(45deg, var(--secondary) 71%, var(--primary));
+    }
+    47%{
+        background: linear-gradient(45deg, var(--secondary) 72%, var(--primary));
+    }
+    48%{
+        background: linear-gradient(45deg, var(--secondary) 73%, var(--primary));
+    }
+    49%{
+        background: linear-gradient(45deg, var(--secondary) 74%, var(--primary));
+    }
+    50%{
+        background: linear-gradient(45deg, var(--secondary) 75%, var(--primary));
+    }
+    51%{
+        background: linear-gradient(45deg, var(--secondary) 74%, var(--primary));
+    }
+    52%{
+        background: linear-gradient(45deg, var(--secondary) 73%, var(--primary));
+    }
+    53%{
+        background: linear-gradient(45deg, var(--secondary) 72%, var(--primary));
+    }
+    54%{
+        background: linear-gradient(45deg, var(--secondary) 71%, var(--primary));
+    }
+    55%{
+        background: linear-gradient(45deg, var(--secondary) 70%, var(--primary));
+    }
+    56%{
+        background: linear-gradient(45deg, var(--secondary) 69%, var(--primary));
+    }
+    57%{
+        background: linear-gradient(45deg, var(--secondary) 68%, var(--primary));
+    }
+    58%{
+        background: linear-gradient(45deg, var(--secondary) 67%, var(--primary));
+    }
+    59%{
+        background: linear-gradient(45deg, var(--secondary) 66%, var(--primary));
+    }
+    60%{
+        background: linear-gradient(45deg, var(--secondary) 65%, var(--primary));
+    }
+    61%{
+        background: linear-gradient(45deg, var(--secondary) 64%, var(--primary));
+    }
+    62%{
+        background: linear-gradient(45deg, var(--secondary) 63%, var(--primary));
+    }
+    63%{
+        background: linear-gradient(45deg, var(--secondary) 62%, var(--primary));
+    }
+    64%{
+        background: linear-gradient(45deg, var(--secondary) 61%, var(--primary));
+    }
+    65%{
+        background: linear-gradient(45deg, var(--secondary) 60%, var(--primary));
+    }
+    66%{
+        background: linear-gradient(45deg, var(--secondary) 59%, var(--primary));
+    }
+    67%{
+        background: linear-gradient(45deg, var(--secondary) 58%, var(--primary));
+    }
+    68%{
+        background: linear-gradient(45deg, var(--secondary) 57%, var(--primary));
+    }
+    69%{
+        background: linear-gradient(45deg, var(--secondary) 56%, var(--primary));
+    }
+    70%{
+        background: linear-gradient(45deg, var(--secondary) 55%, var(--primary));
+    }
+    71%{
+        background: linear-gradient(45deg, var(--secondary) 54%, var(--primary));
+    }
+    72%{
+        background: linear-gradient(45deg, var(--secondary) 53%, var(--primary));
+    }
+    73%{
+        background: linear-gradient(45deg, var(--secondary) 52%, var(--primary));
+    }
+    74%{
+        background: linear-gradient(45deg, var(--secondary) 51%, var(--primary));
+    }
+    75%{
+        background: linear-gradient(45deg, var(--secondary) 50%, var(--primary));
+    }
+    76%{
+        background: linear-gradient(45deg, var(--secondary) 49%, var(--primary));
+    }
+    77%{
+        background: linear-gradient(45deg, var(--secondary) 48%, var(--primary));
+    }
+    78%{
+        background: linear-gradient(45deg, var(--secondary) 47%, var(--primary));
+    }
+    79%{
+        background: linear-gradient(45deg, var(--secondary) 46%, var(--primary));
+    }
+    80%{
+        background: linear-gradient(45deg, var(--secondary) 45%, var(--primary));
+    }
+    81%{
+        background: linear-gradient(45deg, var(--secondary) 44%, var(--primary));
+    }
+    82%{
+        background: linear-gradient(45deg, var(--secondary) 43%, var(--primary));
+    }
+    83%{
+        background: linear-gradient(45deg, var(--secondary) 42%, var(--primary));
+    }
+    84%{
+        background: linear-gradient(45deg, var(--secondary) 41%, var(--primary));
+    }
+    85%{
+        background: linear-gradient(45deg, var(--secondary) 40%, var(--primary));
+    }
+    86%{
+        background: linear-gradient(45deg, var(--secondary) 39%, var(--primary));
+    }
+    87%{
+        background: linear-gradient(45deg, var(--secondary) 38%, var(--primary));
+    }
+    88%{
+        background: linear-gradient(45deg, var(--secondary) 37%, var(--primary));
+    }
+    89%{
+        background: linear-gradient(45deg, var(--secondary) 36%, var(--primary));
+    }
+    90%{
+        background: linear-gradient(45deg, var(--secondary) 35%, var(--primary));
+    }
+    91%{
+        background: linear-gradient(45deg, var(--secondary) 34%, var(--primary));
+    }
+    92%{
+        background: linear-gradient(45deg, var(--secondary) 33%, var(--primary));
+    }
+    93%{
+        background: linear-gradient(45deg, var(--secondary) 32%, var(--primary));
+    }
+    94%{
+        background: linear-gradient(45deg, var(--secondary) 31%, var(--primary));
+    }
+    95%{
+        background: linear-gradient(45deg, var(--secondary) 30%, var(--primary));
+    }
+    96%{
+        background: linear-gradient(45deg, var(--secondary) 29%, var(--primary));
+    }
+    97%{
+        background: linear-gradient(45deg, var(--secondary) 28%, var(--primary));
+    }
+    98%{
+        background: linear-gradient(45deg, var(--secondary) 27%, var(--primary));
+    }
+    99%{
+        background: linear-gradient(45deg, var(--secondary) 26%, var(--primary));
+    }
+    100%{
+        background: linear-gradient(45deg, var(--secondary) 25%, var(--primary));
+    }
+}
+/* VVS  */
+@keyframes VVS_appear{
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 1.1;
+    }
+    100%{
+        scale: 1;
+    }
+}

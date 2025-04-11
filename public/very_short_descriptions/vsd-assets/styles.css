@@ -1,0 +1,19 @@
+.main_container{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-bottom: solid var(--white) 1px;
+}
+.element_name{
+    font-size: 42px;
+    text-align: center;
+}
+.element_symbol, .element_no, .element_mass, .element_classification, .element_electronic_configuration, .element_valencies{
+    font-size: 18px;
+}
+.definition{
+    font-size: 18px;
+}
+.definition_source_link{
+    font-size: 12px;
+}
