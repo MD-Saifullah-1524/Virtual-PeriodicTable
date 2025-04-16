@@ -1,14 +1,14 @@
 .main_container{
     display: block;
-    width: 100%+fit-content;
+    width: 100%;
     height: 100%;
     border-radius: 5px;
-    background: var(--deedeb);
+    background: var(--frosted_white);
      
 }
 :root{
     animation: root-background 50s linear infinite;
-    width: 100%+max-content;
+    width: 100%;
     background-attachment: fixed;
     transition: all 2s;
 }

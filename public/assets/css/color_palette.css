@@ -1,7 +1,14 @@
 :root {
+    /* Solid Colors */
     --black: #000022;
-    --white: #F5FFFA;
+    --white: #deedeb;
     --primary: #ff7799;
     --secondary: #8601bf ;
     --tertiary: #006e6e; 
+    /* For Frosted Background (if any element has frosted background applied it expects a background with some level of transparency or it might break) */
+    --frosted_black:var(--000022);
+    --frosted_white:var(--deedeb);
+    --frosted_primary:var(--ff7799);
+    --frosted_secondary:var(--8601bf);
+    --frosted_tertiary:var(--006e6e);
 }
