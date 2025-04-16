@@ -1,0 +1,18 @@
+.navigation_container_top{
+    background: var(--frosted_white);
+    top: 5px;
+    z-index: 5;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.navigation_icon{
+    height: 50px;
+    width: 50px;
+    color: var(--secondary);
+    transition: all 0.5s;
+}
+.navigation_icon:hover{
+    color: var(--primary);
+    transition: all 0.5s;
+}
