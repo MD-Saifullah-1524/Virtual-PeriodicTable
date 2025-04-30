@@ -7,6 +7,14 @@
     <title>Virtual Periodic Table</title>
     <link rel="stylesheet" href="assets/css/virtual_periodic_table.css">
     <script src="assets/js/main.js"></script>
+    <!-- Service Worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/sw.js')
+            .then(() => console.log('Service Worker registered'))
+            .catch((err) => console.error('SW registration failed:', err));
+        }
+        </script>
 </head>
 <body>
     <div  class="main_container Frosted_Background">
