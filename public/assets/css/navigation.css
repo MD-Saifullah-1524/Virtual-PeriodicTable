@@ -2,17 +2,36 @@
     background: var(--frosted_white);
     top: 5px;
     z-index: 5;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: fit-content;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-right: auto;
 }
-.navigation_icon{
+
+  .navigation_icon{
     height: 50px;
     width: 50px;
     color: var(--secondary);
+  }
+  .navigation_buttons{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    height: 50px;
+    min-width: 100px;
     transition: all 0.5s;
-}
-.navigation_icon:hover{
+    text-align: center;
+    align-items: center;
+  }
+  /* On hover effects */
+  .navigation_buttons:hover{
+    background: var(--frosted_white);
+    color: var(--secondary);
+    transition: all 0.5s;
+  }
+  .navigation_buttons:hover  .navigation_icon{
     color: var(--primary);
     transition: all 0.5s;
-}
+  }
