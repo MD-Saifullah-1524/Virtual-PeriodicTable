@@ -18,14 +18,14 @@
 }
 .properties .properties_group{
     display: flexbox;
-    background: var(--ffffff);
+    background: var(--frosted_white);
     width: auto;
     border-radius: 5px;
     margin: 10px 10px 10px 10px;
 }
 .properties_listing{
     font-size: 22px;
-    color: var(--ffffff);
+    color: var(--frosted_white);
     text-align: center;
     height: auto;
     border-radius: 5px;

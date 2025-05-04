@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 100%;
+    max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
     overflow: scroll;
@@ -83,7 +83,7 @@
     justify-content: space-between;
 }
 .radioactive_elements{
-    background: var(--ffffff);
+    background: var(--frosted_white);
     display: block;
     max-width: fit-content;
     margin-left: auto;
@@ -108,31 +108,28 @@
 }
 /* VVS Description */
 #iframe_container{
-    position: fixed;
     display: none;
-    padding: auto;
-    background: var(--ffffff);
-    -webkit-backdrop-filter: blur(200px);
-    backdrop-filter: blur(200px);
-    z-index: 6;
+    position: absolute;
     width: 100%;
     height: 100%;
-    left: 0%;
-    top: 0%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background: var(--frosted_white);
 }
 #very_short_description{
     display: none;
-    top: 50%;
-    bottom: 50%;
     left: 50%;
-    right: 50%;
-    background: var(--ffffff);
+    top: 50%;
+    background: var(--frosted_white);
     transform: translate(-50%, -50%);
-    width: 600px;
+    width: 90%;
+    max-width: 600px;;
     height: 400px;
     border: none;
     border-radius: 5px;
-    position: sticky;
+    position: fixed;
     animation: 10s linear;
     animation-iteration-count: 1;
 }
