@@ -1,10 +1,11 @@
 .table{
-    display: block;
+    display: flex;
     flex-direction: column;
-    min-width: fit-content;
-    max-width: max-content;
+    width: 100%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    overflow: scroll;
 }
 .element_container{
     display: flexbox;
@@ -84,8 +85,10 @@
 .radioactive_elements{
     background: var(--ffffff);
     display: block;
-    width: fit-content;
-    margin: auto auto;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: scroll;
     border-radius: 5px;
     margin-top: 50px;
 }
