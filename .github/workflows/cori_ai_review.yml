@@ -1,2 +1,40 @@
-- name: ✨ CoriAI Code Review, PhD
+            - name: ✨ CoriAI Code Review, PhD
+  # You may pin to the exact commit or the version.
+  # uses: theboringhumane/cori-ai@e3d93a6220b65e711c35a8a17f293d3cd11ec0af
   uses: theboringhumane/cori-ai@1.2.12
+  with:
+    # LLM provider to use (openai, gemini, groq, mistral, ollama)
+    provider: # optional, default is openai
+    # OpenAI API key (required if using OpenAI)
+    openai_api_key: # optional
+    # OpenAI API base URL (optional)
+    openai_base_url: # optional, default is https://api.openai.com/v1
+    # Google API key (required if using Gemini)
+    google_api_key: # optional
+    # Groq API key (required if using Groq)
+    groq_api_key: # optional
+    # Mistral API key (required if using Mistral)
+    mistral_api_key: # optional
+    # Ollama API key (required if using Ollama)
+    ollama_api_key: # optional
+    # Ollama API base URL (optional)
+    ollama_base_url: # optional, default is http://localhost:11434
+    # GitHub token for PR access
+    github_token: # optional, default is ${{ github.token }}
+    # Additional instructions for the AI reviewer
+    extra_prompt: # optional, default is 
+    # Model to use (provider-specific, e.g., gpt-4-turbo-preview for OpenAI, gemini-pro for Google)
+    model: # optional, default is gpt-4o-mini
+    # Title of the pull request
+    pr_title: # optional, default is ${{ github.event.pull_request.title }}
+    # Description of the pull request
+    pr_description: # optional, default is ${{ github.event.pull_request.body }}
+    # State of the pull request
+    pr_state: # optional, default is ${{ github.event.pull_request.state }}
+    # Author of the pull request
+    pr_author: # optional, default is ${{ github.event.pull_request.user.login }}
+    # Number of the pull request
+    pr_number: # optional, default is ${{ github.event.number }}
+    # Repository of the pull request
+    github_repository: # optional, default is ${{ github.repository }}
+          
