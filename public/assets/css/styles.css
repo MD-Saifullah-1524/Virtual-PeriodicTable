@@ -10,6 +10,6 @@
 :root{
     animation: root-background 50s linear infinite;
     width: 100%;
-    background-attachment: fixed;
+
     transition: all 2s;
 }

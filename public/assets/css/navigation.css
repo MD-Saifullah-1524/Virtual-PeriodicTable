@@ -1,5 +1,5 @@
 .navigation_container_top{
-    background: var(--frosted_white);
+    background: var(--frosted_primary);
     top: 5px;
     z-index: 5;
     width: fit-content;
@@ -27,7 +27,7 @@
   }
   /* On hover effects */
   .navigation_buttons:hover{
-    background: var(--frosted_white);
+    background: var(--frosted_secondary);
     color: var(--secondary);
     transition: all 0.5s;
   }

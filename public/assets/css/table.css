@@ -99,7 +99,6 @@
     justify-content: space-between;
 }
 .radioactive_elements{
-    background: var(--frosted_white);
     display: block;
     max-width: fit-content;
     margin-left: auto;
@@ -138,7 +137,7 @@
     display: none;
     left: 50%;
     top: 50%;
-    background: var(--frosted_white);
+    background: var(--frosted_primary);
     transform: translate(-50%, -50%);
     width: 90%;
     max-width: 600px;;

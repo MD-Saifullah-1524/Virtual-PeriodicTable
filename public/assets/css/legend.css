@@ -4,7 +4,7 @@
     margin: auto auto;
     height: auto;
     padding: auto;
-    background: var(--e3ddd3);
+    background: transparent;
     border-radius: 5px;
 }
 .properties{
@@ -18,7 +18,7 @@
 }
 .properties .properties_group{
     display: flexbox;
-    background: var(--frosted_white);
+    background: var(--frosted_primary);
     width: auto;
     border-radius: 5px;
     margin: 10px 10px 10px 10px;
