@@ -6,6 +6,7 @@
     margin-left: 50%;
     transform: translateX(-50%);
     margin-right: auto;
+    flex-direction: row;
 }
 
   .navigation_icon{
