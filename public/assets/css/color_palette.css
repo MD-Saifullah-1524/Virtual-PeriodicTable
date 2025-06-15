@@ -11,4 +11,6 @@
     --frosted_primary:var(--ff7799);
     --frosted_secondary:var(--8601bf);
     --frosted_tertiary:var(--006e6e);
+    /* Mouse cursor gradient tracking */
+    --mouse_cursor_gradient_tracking:var(--secondary);
 }
