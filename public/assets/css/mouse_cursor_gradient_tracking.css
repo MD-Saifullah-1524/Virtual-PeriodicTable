@@ -1,0 +1,4 @@
+.mouse_cursor_gradient_tracking::before{
+    max-width: 200px;
+    max-height: 200px;
+}
